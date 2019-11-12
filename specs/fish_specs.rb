@@ -9,8 +9,4 @@ def test_fish_name
   assert_equal("Trout", fish.name)
 end
 
-
-
-
-
 end
