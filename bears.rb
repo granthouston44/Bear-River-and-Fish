@@ -8,7 +8,17 @@ def initialize(name, type)
   @stomach = []
 end
 
+def stomach
+  return @stomach.size
+end
 
+def take_fish(river,fish)
+  river.lose_fish(fish)
+  @stomach.push(fish)
+end
 
+def roar
+  return "RAAAWWWWRRRRR"
+end
 
 end
