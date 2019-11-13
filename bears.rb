@@ -1,4 +1,4 @@
-class Bears
+class Bear
 
 attr_reader :name, :type
 
